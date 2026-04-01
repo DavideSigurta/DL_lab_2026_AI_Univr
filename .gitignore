@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments and local settings
+.env
+.env.*
+.python-version
+
+# Dataset folders (common names)
+data/
+dataset/
+datasets/
+
+# Compressed archives (datasets)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+
+# ML artifacts / large binaries
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Logs
+*.log
